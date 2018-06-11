@@ -43,10 +43,6 @@ namespace FirstEFProject.Controllers
             return RedirectToAction("Index");
         }
 
-        // [HttpPut]
-        // public IActionResult Update(Category category, int id){
-
-        //  }
         [HttpDelete]
         public IActionResult Delete(int id)
         {
